@@ -1,0 +1,568 @@
+/*font-family: 'Sniglet', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;*/
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Dosis', sans-serif;
+	background-image: url(../images/background_bg.png);	
+	color: #333333;
+}
+/*header*/
+header{
+	background-color: #ffd338;
+}
+
+.custom-nav{}
+.custom-nav ul li{}
+.custom-nav ul li a{
+	color: #ffffff !important;
+	font-family:'Dosis', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 20px !important; 
+	border-radius: 10px;
+	transition: .5s;
+}
+.custom-nav ul li a:hover{	
+	/*width: 100px;*/
+	background-color: #f05c5c;
+
+}
+
+.custom-dropdown{}
+.custom-a{
+	color: white !important; 
+	margin-right: 3px;
+}
+.custom-a:focus{
+	box-shadow:0 0 0 0.2rem rgba(255, 193, 7, 0.35) ! important;
+}
+.search i{
+	color: white !important; 
+}
+/*banner*/
+.banner{
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-text{
+	margin-top: 250px;
+	margin-bottom: 270px;
+}
+.banner-text h1{
+	color: #707070;
+	font-family: 'Dosis', sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+
+}
+.banner-text h3{
+	color: #1ec0ff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+}
+.scroll h4{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	color: #c2c2c2;
+}
+.scroll i{
+	color: #c2c2c2;
+	font-size: 48px;
+}
+/*kids*/
+.kids{
+	padding: 80px 0;	
+}
+.common-title{
+	margin-bottom: 40px;
+
+}
+.common-title h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+	text-transform: uppercase;
+}
+.common-title hr{	
+	border: none;
+	border: 3px dashed white; 
+	width: 250px;
+	margin: 40px auto;
+}
+.schools{}
+.schools h4{
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+.schools hr{
+	border: none;
+	border: 1px solid #dddddd; 
+	width: 200px;
+	margin: 10px 0px;
+}
+.schools p{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #8c8c8b;
+	font-weight: 300;
+	line-height: 1.9;	
+}
+.schools img {
+	width: 235px;
+}
+.school-pic{
+
+}
+.school-pic img{
+	margin-top: 10px;
+	border-radius: 20px;
+	width: 100%;
+}
+/*kids1*/
+.kids1{
+	padding: 80px 0;
+	background-image: url(../images/section_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.kids1-content p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 9px;
+}
+/*courses*/
+.courses{
+	padding: 80px 0;
+}
+
+.title{
+	margin-bottom: 0px;
+}
+/*.title hr{
+	border: none;
+	border: 3px dashed white; 
+	width: 250px;
+	margin: 40px auto;
+	}*/
+
+	/*cards*/
+	.card {
+		font-size: 1em;
+		overflow: hidden;
+		padding: 0;
+		border: none;
+		border-radius: .28571429rem;
+		box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+	}
+	.cust-card{
+		border-radius: 20px;
+	}
+	.cust-header{	
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		font-weight: 300;
+		border-top-right-radius: 20px!important;
+		border-top-left-radius: 20px!important;
+	}
+	.cust-header1{
+		background-color: #1ec0ff!important;
+	}
+	.cust-header2{
+		background-color: #56d47e!important;
+	}
+
+	.cust-header3{
+		background-color: #f05c5c!important;
+	}
+
+	.cust-header4{
+		background-color: #ffd338!important;
+	}
+
+	.cust-header img{
+		float: right;
+	}
+
+	.caourses-amount{
+		position: absolute;
+		top: 4px;
+		left: 10px;
+	}
+	.caourses-amount p{
+		font-family: 'Dosis', sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+		position: absolute;
+
+	}
+	.caourses-amount span{
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		position: absolute;
+		top: 20px;
+		left: 2px;
+	}
+
+
+	.card-block {
+		font-size: 1em;
+		position: relative;
+		margin: 0;
+		padding: 1em;
+		border: none;
+		border-top: 1px solid rgba(34, 36, 38, .1);
+		box-shadow: none;
+	}
+
+	.card-img-top {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.card-title {
+		font-family: 'Dosis', sans-serif;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.2857em;
+	}
+
+	.card-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		padding-top: 5px;
+	}
+	.profile {	
+		color: white;
+		position: absolute;
+		top: -21px;
+		right: 22px;
+		display: inline-block;
+		overflow: hidden;
+		box-sizing: border-box;
+		width: 50px;
+		height: 50px;
+		margin: 0;
+		/*border: 1px solid #fff;*/
+		border-radius: 50%;
+	}
+
+	.profile1 {
+		background-color: #1ec0ff;
+	}
+	.profile2 {
+		background-color: #56d47e;
+	}
+	.profile3 {
+		background-color: #f05c5c;
+	}
+	.profile4 {
+		background-color: #ffd338;
+	}
+
+	.profile-avatar {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+	}
+	.cust-footer{
+		font-size: 16px;
+		font-weight: 400;
+		color: #4e4e4e;
+	}
+	.cust-footer span{
+		margin: 15px 0;
+		color: #dddddd;
+	}
+	.m-t{
+		margin-top: 50px;
+		background-color: #56d47e!important;
+		border: none;
+	}
+
+	/*moments*/
+	.moments{
+		background-image: url(../images/moments-bg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding: 80px 0;
+	}
+
+	.gallary{
+		padding: 80px 0;
+	}
+	.gallary-content img{
+		border-radius: 20px;
+	}
+	.gallary-top{
+		margin-top: 30px;
+	}
+	.btn-viewmore img{
+		width: 215px;
+	}
+
+	/*twitter*/
+	.teacher{
+		padding: 80px 0;
+	}
+/*	.twitter{
+		margin: 80px 0;
+		}*/
+		.twitter i{
+			color: #1ec0ff;
+			font-size: 45px;
+		}
+
+		.twitter a{		
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 14px;		
+		}
+
+		.para1{		
+			font-family: 'Lato', sans-serif;
+			font-weight: 500;
+			font-size: 14px;
+			margin-top: 30px;
+			line-height: 1.9;		
+		}
+		.para2{
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+			margin-top: 23px;
+			color: #2cc3fe;
+		}
+		/*teacher follow me*/
+		.teacher-img img{
+			border-radius: 20px;
+		}
+		.t-decs{}
+		.t-decs h5{
+			font-family: 'Dosis', sans-serif;
+			font-size: 24px;
+			font-weight: bold;
+			
+		}
+		.skill{
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+			color: #5e5e5d;
+
+		}
+		.head1{
+			
+			color: #72d3f8;
+		}
+		.head2{
+			color: #80dd9d;
+		}
+		.head3{
+			color: #f05c5c;
+		}
+		.head4{
+			color: #ffd338;
+		}
+		.teacher-text{
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+			color: #7f7f7e;
+		}
+		.follow{
+			font-family: 'Dosis', sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		/*views*/
+		.views{
+			background-color: #6E6E6E;
+			padding: 80px 0;
+		}
+		.views-container{
+			margin-bottom: 20px;
+		}
+		.views_wrapper{
+			position: relative;
+			color: #fff;
+
+		}
+		.views_wrapper h1{
+			font-size: 60px;
+			font-weight: 700;
+		}
+
+		.views-container h2 {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 700;   
+		}
+
+		/*events*/
+		.events{
+			padding: 80px 0;
+		}
+		.event-content-top{
+			margin-top: 20px;
+		}
+		.timeline-date{
+			width: 100px;
+			height: 100px;			
+			border-radius: 50%;
+			font-family: 'Dosis', sans-serif;
+			color: white;
+			text-align: center;
+		}
+		.timeline-date p{			
+			font-size: 48px;
+			font-weight: bold;		
+			
+		}
+
+		.timeline-date span{
+			font-size: 18px;
+			font-weight: 500;
+			position: absolute;
+			top: 58px;
+			left: 51px;
+		}
+		.timeline-txet{
+			padding-top: 20px;
+			/*padding-left:6px;*/
+		}
+		.timeline-txet h3{
+			font-family: 'Dosis', sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+		}
+		.timeline-txet p{
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+		}
+		.register{
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			color: #ffd338;
+			text-transform: uppercase;
+		}
+		.timeline-style{
+			padding-top: 0px;
+		}
+		.event-content{
+			margin-bottom: 40px;
+		}
+		.pic{
+			
+		}
+		.pic img{
+			width: 100%;
+			border: none;
+			border-radius: 20px;
+		}
+		.timeline-txet hr{
+			border: none;
+			border-bottom: 3px dotted;
+			color: #1ec0ff;
+			/*width: 250px;*/
+			margin-left: 0;
+		}
+
+		.hr1{
+			color:  #56d47e !important;
+		}
+		.hr2{
+			color: #ffd338!important;
+		}
+		.timeline-style p{
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+			margin-bottom: 10px
+		}
+		.sub_text{
+
+		}
+
+		.contacts{
+			background-image: url(../images/dropshadow.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		.contacts-box{
+			margin-top: 250px;
+			margin-bottom: 100px;
+		}
+
+		.contacts-box img{
+			width: 100%;
+		}
+
+		.contacts-box h1{
+			font-size: 23px;
+			font-weight: 700;
+			margin-top: 230px;
+		}
+		.contacts-box hr{
+			width: 70%;
+			border: 2px dashed;
+			margin-bottom: 30px
+		}
+		.contacts_img img{
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		.contacts-box p{
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+		}
+		.text-icon{
+			color: #343a40!important;
+		}
+		footer{
+			background-color: #FFD338;
+			padding-top: 30px;
+			padding-bottom: 25px;
+		}
+		.custom-list a{
+			font-size: 18px;
+			font-weight: 700;
+			color: #FFF;
+			padding-right: 10px;
+			border-right: 2px solid #fff;
+		}
+		.custom-list li:last-child a{
+			border-right: none;
+		}
+		footer p{
+			font-size: 14px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			color: #FFF;
+			/*margin: 30px auto;*/
+		}
